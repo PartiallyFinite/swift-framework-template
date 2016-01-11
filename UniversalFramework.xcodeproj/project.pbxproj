@@ -82,7 +82,7 @@
 		377C0C161C39055800B1840F = {
 			isa = PBXGroup;
 			children = (
-				377C0C221C39055800B1840F /* UniversalFramework */,
+				377C0C221C39055800B1840F /* Sources */,
 				377C0C2E1C39055800B1840F /* Tests */,
 				377C0C211C39055800B1840F /* Products */,
 			);
@@ -99,14 +99,14 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		377C0C221C39055800B1840F /* UniversalFramework */ = {
+		377C0C221C39055800B1840F /* Sources */ = {
 			isa = PBXGroup;
 			children = (
 				377C0C231C39055800B1840F /* UniversalFramework.h */,
 				377C0C251C39055800B1840F /* Info-Mac.plist */,
 				377C0C581C3906F400B1840F /* Info-iOS.plist */,
 			);
-			path = UniversalFramework;
+			path = Sources;
 			sourceTree = "<group>";
 		};
 		377C0C2E1C39055800B1840F /* Tests */ = {
@@ -430,7 +430,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = "UniversalFramework/Info-Mac.plist";
+				INFOPLIST_FILE = "Sources/Info-Mac.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
@@ -449,7 +449,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = "UniversalFramework/Info-Mac.plist";
+				INFOPLIST_FILE = "Sources/Info-Mac.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
@@ -489,7 +489,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "UniversalFramework/Info-iOS.plist";
+				INFOPLIST_FILE = "Sources/Info-iOS.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -509,7 +509,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "UniversalFramework/Info-iOS.plist";
+				INFOPLIST_FILE = "Sources/Info-iOS.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
